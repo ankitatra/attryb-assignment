@@ -5,13 +5,6 @@ const connection=require("./config/db")
 
 const carrouter=require("./routes/car.routes")
 app.use(express.json())
-
-
-
-
-
-
-
 const PORT = process.env.PORT;
 const cors = require('cors');
 
